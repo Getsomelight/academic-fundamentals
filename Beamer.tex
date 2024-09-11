@@ -1,0 +1,134 @@
+\documentclass{beamer}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{graphicx}
+
+
+\usetheme{Berlin}
+
+
+\title{Hardware security, Intelectual property piracy and Obfuscation}
+\author{Bisultanov U, Volyanuk M}
+\date{}
+
+
+\begin{document}
+
+\begin{frame}{}
+    \titlepage
+\end{frame}
+
+
+\section{List}
+\begin{frame}{List}
+
+    \begin{itemize}[<+->]
+        \item Contents  
+        \item Introduction
+            \begin{itemize}
+                \item<2-> Hardware security
+                \item<2-> Intellectual property piracy
+                \item<2-> Obfuscation
+            \end{itemize}
+        \item Problem 
+        \item Obfuscation methods
+        \item Comparison
+        \item Conclusion 
+    \end{itemize}
+
+\end{frame}
+
+
+\section{Introduction}
+\begin{frame}{Hardware security}
+
+\begin{wrapfigure}{0}{0.5\textwidth}
+\includegraphics[width=1\linewidth, height=3cm]{image1.jpg} 
+\label{fig:wrapfig1}
+\end{wrapfigure}
+
+    Hardware Security is vulnerability protection that comes in the form of a physical device rather than software that`s installed on the hardware of a computer system.
+    
+\end{frame}
+
+
+\begin{frame}{Intellectual property piracy}
+\begin{alertblock}{Intellectual property piracy}
+     occurs when someone copies, reproduces, oruses these protected works without the permission of the rightful owner, often with the intent to profit or benefit from the original creator’s ideas or artistic expressions.
+\end{alertblock}
+
+\end{frame}
+
+
+\begin{frame}{Obfuscation}
+
+\alert{Obfuscation} is the obscuring of the intended meaning of communication by making the message difficult to understand, usually with confusing and ambiguous language.
+
+\begin{figure}
+\includegraphics[width=0.8\linewidth, height=4.5cm]{image2.jpg} 
+\label{fig:fig2}
+\end{figure}
+
+\end{frame}
+
+
+\section{Problem}
+\begin{frame}{Problem}
+
+Code after most obfuscation methods becomes more dependent on the platform or compiler, Insufficient security of obfuscation.
+So there are better methods...
+
+\begin{figure}
+\includegraphics[width=0.6\linewidth, height=4.5cm]{image3.jpg} 
+\label{fig:fig3}
+\end{figure}
+
+\end{frame}
+
+
+\section{Obfuscation methods}
+\begin{frame}{Obfuscation methods}
+
+\begin{itemize}
+    \item \textbf{Reverse engineering method} – converting machine code into the programming language and examining the latter for vulnerabilities.
+    \item \textbf{Byte level manipulation}
+    \item \textbf{Cryptography}
+    \item \textbf{Finite State Machine Method, which are studied in universities}
+\end{itemize}
+
+\end{frame}
+
+
+\section{Comparison}
+\begin{frame}{Comparison of different versions}
+
+\begin{columns}
+    \begin{column}{1\textwidth}
+        \begin{table}[t]
+        \caption{Average Number of Failing Patterns for ISCAS-89 Benchmark Circuits for Different Modification Schemes}
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            Benchmark & Scheme-1 & Scheme-2 & Scheme-3 \\\hline
+            S298 & 51 & 158 & 193 \\\hline
+            S344 & 215 & 1093 & 1233 \\\hline
+            S444 & 197 & 569 & 7732 \\\hline
+            S526 & 146 & 485 & 1186 \\\hline
+            S641 & 598 & 2491 & 5135 \\\hline
+            S713 & 913 & 2918 & 3301 \\\hline
+        \end{tabular}
+\end{table}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+\section{Conclusions}
+\begin{frame}{Conclusions}
+     Insufficient security of obfuscation is the main identified drawback, which can be prevented by combining various obfuscation techniques and the encryption method
+\end{frame}
+
+\begin{frame}
+    \tableofcontents
+\end{frame}
+\end{document}
